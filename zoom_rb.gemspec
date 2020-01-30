@@ -17,17 +17,17 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'simplecov', '~> 0.16.1'
   gem.add_development_dependency 'webmock', '~> 3.4'
 
-  gem.authors       = ['Kyle Boe']
-  gem.email         = ['kyle@boe.codes']
+  gem.authors       = ['Kiagus Arief Adriansyah']
+  gem.email         = ['kadriansyah@gmail.com']
   gem.description   = 'A Ruby API wrapper for zoom.us API'
   gem.summary       = 'zoom.us API wrapper'
-  gem.homepage      = 'https://github.com/hintmedia/zoom_rb'
+  gem.homepage      = 'https://github.com/kadriansyah/zoom_rb'
   gem.licenses      = ['MIT']
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = 'zoom_rb'
+  gem.name          = 'zoom_markazuna'
   gem.require_paths = ['lib']
   gem.version       = Zoom::VERSION
 end
